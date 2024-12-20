@@ -14,6 +14,4 @@ from app.main import get_coin_combination
     ]
 )
 def test_coins(coins: int, result: list) -> None:
-    assert (
-            get_coin_combination(coins) == result
-    )
+    assert get_coin_combination(coins) == result
